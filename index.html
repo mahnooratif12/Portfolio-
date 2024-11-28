@@ -9,10 +9,26 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="index.js"></script>
+    <style>
+        .download-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand bg-dark text-white" href="#">portfolio</a>
+        <a class="navbar-brand bg-dark text-white" href="#">Portfolio</a>
     </nav>
     <div class="container mt-5">
         <h1 class="heading text-center">Hello, I'm Mahnoor</h1>
@@ -21,25 +37,34 @@
         <p>
             Motivated web developer with a strong foundation in JavaScript, HTML, CSS, and React. Proven ability to deliver clean, efficient code and complete tasks on time. Seeking to leverage these skills in a dynamic and challenging web development role. I really enjoy developing web applications and looking forward to professional grow in suitable company. I want to contribute my skills to tech industry and grow along with it as it growing.
         </p>
-        <div class="list-group" >
-            <a href="EQ.html" class="list-group-item">Education & Qualification</a>
-            <a href="WE.html" class="list-group-item">Work Experience</a>
-            <a href="AI.html" class="list-group-item">Additional Information</a>
+        <!-- List Group -->
+        <div class="list-group">
+            <a href="Education_Qualification.html" class="list-group-item">Education & Qualification</a>
+            <a href="Work_Experience.html" class="list-group-item">Work Experience</a>
+            <a href="Additional_Information.html" class="list-group-item">Additional Information</a>
         </div>
+
+        <!-- Download Button -->
+       
+        <br>
         <div>
-            <footer>
-                <p>Contact Me</p>
-                <a href="mahnur.atif@gmail.com" target="_blank" title="Email Me">
-                    <i class="fas fa-envelope fa-2x"></i>
-                </a>
-                <a href="https://github.com/mahnooratif12" target="_blank">
-                    <i class="fab fa-github fa-2x"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/mahnoor-atif | " target="_blank">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-            </footer>
+    <footer class="mt-5 ">
+        <div>
+            <p class="text-white mb-2">Contact Me</p>
+            <a href="mailto:mahnur.atif@gmail.com" target="_blank" title="Email Me">
+                <i class="fas fa-envelope fa-2x me-3"></i>
+            </a>
+            <a href="https://github.com/mahnooratif12" target="_blank">
+                <i class="fab fa-github fa-2x me-3"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mahnoor-atif" target="_blank">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
         </div>
+        <a href="#" class="download-btn" download="Mahnoor_Atif_CV.pdf">Download Resume/CV</a>
+    </footer>
+</div>
+
     </div>
 </body>
 </html>
